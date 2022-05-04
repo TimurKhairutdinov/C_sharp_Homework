@@ -13,17 +13,17 @@ void Week(int day)
     int friday = 5;
     int saturday = 6;
     int sunday = 7;
-    if(day!=0)
+    if (day != 0)
     {
-        if(day <= 7)
+        if (day <= 7)
         {
-            if (day == monday) Console.WriteLine("Понедельник"); 
-            if (day == tuesday) Console.WriteLine("Вторник"); 
-                if (day == wednesday) Console.WriteLine("Среда"); 
-            if (day == thursday) Console.WriteLine("Четверг"); 
-            if (day == friday) Console.WriteLine("Пятница"); 
-            if (day == saturday) Console.WriteLine("Суббота выходной"); 
-            if (day == sunday) Console.WriteLine("Воскресенье выходной"); 
+            if (day == monday) Console.WriteLine("Понедельник");
+            if (day == tuesday) Console.WriteLine("Вторник");
+            if (day == wednesday) Console.WriteLine("Среда");
+            if (day == thursday) Console.WriteLine("Четверг");
+            if (day == friday) Console.WriteLine("Пятница");
+            if (day == saturday) Console.WriteLine("Суббота выходной");
+            if (day == sunday) Console.WriteLine("Воскресенье выходной");
         }
         else Console.Write("Введенное число больше 7");
     }
