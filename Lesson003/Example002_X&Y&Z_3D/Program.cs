@@ -39,7 +39,7 @@ double Gip(int yA, int yC, int xC, int xB, int zA, int zB)
     distnce = (ac * ac) + (bc * bc) + (z * z);
     return Math.Sqrt(distnce);
     // Это же решение:
-    // return Math.Sqrt(Math.Pow(ac,2)+ Math.Pow(bc,2));  
+    // return Math.Sqrt(Math.Pow(ac,2)+ Math.Pow(bc,2)+Math.Pow(z,2);  
 }
 
 Console.WriteLine("Расстояние между заданными точками A и B: " + Gip(yA, yC, xC, xB, zA, zB));
