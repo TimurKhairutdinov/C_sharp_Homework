@@ -2,13 +2,13 @@
 // Внес изменения: при вводе данных, нужно ввести степень возведения, таким образом можно ввести любую степень, не ограничаваясь условием.
 
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите сепень возведения: ");
 int exponent = Convert.ToInt32(Console.ReadLine()); // Позволяет ввести любую степень, а не только 3 как указано в условии.
-int count = 1;
-while (count <= number)
+int number = 1;
+while (number <= n)
 {
-    int countQuatro = Convert.ToInt32(Math.Pow(count,exponent));
-    Console.WriteLine($"{count}^{exponent} = {countQuatro}");
-    count++;
+    int numberExponent = Convert.ToInt32(Math.Pow(number,exponent));
+    Console.WriteLine($"{number}^{exponent} = {numberExponent}");
+    number++;
 }
