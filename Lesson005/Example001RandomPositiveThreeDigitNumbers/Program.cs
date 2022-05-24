@@ -9,10 +9,10 @@ int end = 1000;
 int[] numbers = new int[sizeArray];
 RandomFillArray(numbers, start, end);
 WriteArray(numbers);
-int result = ParityNumbers(numbers);
+int result = EvenNumbers(numbers);
 Console.WriteLine("Количество чётных чисел в массиве: " + result);
 
-int ParityNumbers(int[] array)
+int EvenNumbers(int[] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
