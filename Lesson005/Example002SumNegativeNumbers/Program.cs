@@ -53,7 +53,6 @@ void RandomFillArray(int[] array, int start, int end)
     {
         array[i] = new Random().Next(start, end);
     }
-
 }
 void WriteArray(int[] array)
 {
@@ -75,9 +74,3 @@ void WriteArray(int[] array)
     }
     Console.WriteLine();
 }
-
-
-
-
-
-
